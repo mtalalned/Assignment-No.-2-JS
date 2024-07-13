@@ -149,8 +149,27 @@
 
 
 // Question No. 17
-// var inputCharacter = prompt('Enter a single alphabet')
-// console.log (inputCharacter ==='a' || inputCharacter ==='e' || inputCharacter ==='i' || inputCharacter ==='o' || inputCharacter ==='u' || inputCharacter ==='A' || inputCharacter ==='E' || inputCharacter ==='I' || inputCharacter ==='O' || inputCharacter ==='U' )
+var inputCharacter = prompt('Enter an alphabet')
+// console.log(typeof(inputCharacter))
+// var characterLength = inputCharacter.length;
+// console.log (characterLength, typeof(characterLength))
+// var numberCheck = +inputCharacter
+// console.log (numberCheck,typeof(numberCheck))
+// if (characterLength === 1 && inputCharacter !== " " && inputCharacter !== '0'){
+//     if (inputCharacter ==='a' || inputCharacter ==='e' || inputCharacter ==='i' || inputCharacter ==='o' || inputCharacter ==='u' || inputCharacter ==='A' || inputCharacter ==='E' || inputCharacter ==='I' || inputCharacter ==='O' || inputCharacter ==='U'){
+//         console.log ('vowel')
+//     }else if (isNaN(inputCharacter) != true){
+//         console.log ('Enter an alphabet')
+//     } else {
+//         console.log ('Not a Vowel')
+//     }
+// }else if (characterLength === 1 && (inputCharacter === " " || numberCheck != 'NaN' || inputCharacter === '0')) { 
+//     console.log ('Enter character')
+// } else if(characterLength > 1){
+//     console.log ('Enter only 1 character')
+// } else {
+//     console.log ('Enter as instructed')
+}
 
 // Question No. 18
 // console.log (10 !== 8)
